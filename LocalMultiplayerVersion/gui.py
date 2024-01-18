@@ -1,5 +1,5 @@
 from tkinter import *
-import LocalMultiplayerVersion.janken as jk
+import janken as jk
 root = Tk()
 root.title("janken")
 
