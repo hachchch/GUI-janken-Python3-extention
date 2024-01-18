@@ -3,7 +3,7 @@ import tkinter.messagebox as mb
 def janken(you):
     hands = ['rock','paper','scissors']
     you_hand = hands[you]
-    return x
+    mb.showinfo('result',txt)
 def jankenII(youII):
     hands = ['rock','paper','scissors']
     youII_hand = hands[com]
