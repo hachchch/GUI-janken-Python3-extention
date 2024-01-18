@@ -4,11 +4,13 @@ import random
 def janken(you):
     hands = ['rock','paper','scissors','shoe']
     you_hand = hands[you]
-    com = random.randint(0,2)
+    com = random.randint(0,3)
     com_hand = hands[com]
-
-    j = (you - com +3) % 3
-    if j == 0:
+#e-vs-e
+#e-vs>
+#e-vs>
+    j = (you - com +3)
+    if j == 3:
         txt = 'draw: '
     elif j == 1:
         txt = 'You win!: '
