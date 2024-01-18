@@ -22,7 +22,7 @@ s_button = Button(
     width=10,
     command=lambda:jk.janken(2)
 )
-S_button = Button(
+e_button = Button(
     text="shoe",
     width=10,
     command=lambda:jk.janken(3)
