@@ -4,7 +4,8 @@ def janken(you):
     hands = ['rock','paper','scissors']
     you_hand = hands[you]
     jankenII(youII):
-    youII_hand = hands[youII]
+    handsII = ['rock','paper','scissors']
+    youII_hand = handsII[youII]
 
     j = (you - youII +3) % 3
     if j == 0:
