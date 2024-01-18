@@ -22,6 +22,9 @@ s_button = Button(
     width=10,
     command=lambda:jk.janken(2)
 )
+j_button = Button(
+    text="jar",
+    command=lambda:jk.janken(3)
 r_button.pack()
 p_button.pack()
 s_button.pack()
