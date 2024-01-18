@@ -30,5 +30,6 @@ e_button = Button(
 r_button.pack()
 p_button.pack()
 s_button.pack()
+e_button.pack()
 
 root.mainloop()
