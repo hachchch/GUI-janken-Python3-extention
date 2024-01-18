@@ -3,10 +3,7 @@ import tkinter.messagebox as mb
 def janken(you):
     hands = ['rock','paper','scissors']
     you_hand = hands[you]
-    mb.showinfo('result',txt)
-def jankenII(youII):
-    hands = ['rock','paper','scissors']
-    youII_hand = hands[com]
+    youII_hand = hands[youII]
 
     j = (you - youII +3) % 3
     if j == 0:
