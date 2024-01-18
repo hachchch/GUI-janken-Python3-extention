@@ -3,6 +3,7 @@ import tkinter.messagebox as mb
 def janken(you):
     hands = ['rock','paper','scissors']
     you_hand = hands[you]
+    jankenII(youII):
     youII_hand = hands[youII]
 
     j = (you - youII +3) % 3
